@@ -5,6 +5,13 @@
 
 The [pandoc installation](http://johnmacfarlane.net/pandoc/installing.html) page includes easy to use installers for Windows and Mac OS X.
 
+You may also install it using the installr package:
+
+```r
+install.packages("installr")
+installr::install.pandoc()
+```
+
 #### Linux
 
 The version of pandoc included in the standard repositories is not recent enough for use with the **rmarkdown** package. You can install a more recent version of pandoc by installing the Haskell Platform and then following these instructions for [building pandoc from source](http://johnmacfarlane.net/pandoc/installing.html#all-platforms).
